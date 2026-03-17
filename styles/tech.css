@@ -41,10 +41,12 @@ nav h2{
   margin-top:30px;
 }
 .w{
-  color:#f800c28a;
+  background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+  background-clip: text;
+  color: transparent;
 }
 .p-btn{
-background-color: #f800c28a;
+background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
 color:#FFFFFF;
 padding: 12px 16px 12px 16px;
 display:flex;
@@ -193,4 +195,82 @@ margin: 12px 16px 12px 4px;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
+
+}
+#choose{
+ 
+  margin: 0 auto;
+  background-color: #230E3D;
+ /* border: 1px solid white;*/
+  padding: 120px 0;
+}
+.c-heading{ 
+  max-width: 1600px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+.c-card-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  /*border: 1px solid seagreen;*/
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 30px;
+  }
+.c-card{
+  /*border: 1px solid white;*/
+  text-align: left;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  padding-left: 40px;
+}
+#f-1{
+  grid-row: span 2;
+  padding-top: 107px;
+}
+#f-2{
+  grid-column: span 2;
+  padding-top: 40px;
+}
+#f-3{
+  grid-column: span 2;
+  padding-top: 40px;
+}
+#f-4{
+  grid-column: span 2;
+  padding-top: 40px;
+}
+#f-5{
+  padding-top: 40px;
+}
+.c-card h4{
+  
+color: #FFFFFF;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+margin: 16px 0;
+}
+.c-card p{
+color:#ffffff91;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.p-1{
+  max-width: 300px;
+}
+
+.img-c{
+  max-width: 60px;
+  display: flex;
+  font-size: 30px;
+  background:linear-gradient(#F7E93F,#FB09B4,#9100F8);
+  background-clip: text;
+  color: transparent;
 }
